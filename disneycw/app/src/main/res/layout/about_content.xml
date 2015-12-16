@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:text="This is a simple app for users planning to got to Disney World in Orlando, FL.
+Users will be able to view the latest News on Disney World and also view all six of the parks in Disney World on an map. They will also be able to change User Preferences to suit their needs."
+        android:textSize="20dp" />
+
+</LinearLayout>

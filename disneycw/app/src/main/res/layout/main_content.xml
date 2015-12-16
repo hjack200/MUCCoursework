@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hollyjack.disneycw.MainActivity">
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/news"
+        android:text="Disney News"
+        android:textSize="25dp"
+        android:onClick="newsClick"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/parks"
+        android:text="Find the Parks"
+        android:textSize="25dp"
+        android:onClick="parkClick"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/mickey"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/about"
+        android:text="About"
+        android:textSize="25dp"
+        android:onClick="abtClick"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/user_prefs"
+        android:text="User Preferences"
+        android:textSize="25dp"
+        android:onClick="prefClick"/>
+</LinearLayout>

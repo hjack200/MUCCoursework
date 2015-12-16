@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_activity"
+        android:title="Home Page"/>
+    <item
+        android:id="@+id/disney_news"
+        android:title="Disney News" />
+    <item
+        android:id="@+id/meet_char"
+        android:title="View the Parks" />
+    <item
+        android:id="@+id/about"
+        android:title="About" />
+    <item
+        android:id="@+id/user_prefs"
+        android:title="User Preferences"/>
+
+</menu>
